@@ -22,7 +22,7 @@ namespace MovieDB
             Console.Write($"Filmen {Title} är {RunTime} min lång, och har följande skådespelare: ");
             foreach (var actor in Actors)
             {
-                Console.Write($"{actor.Name}(född: {actor.BirthYear}), ");
+                Console.Write($"{actor.Name} (född: {actor.BirthYear}), ");
             }
         }
     }
